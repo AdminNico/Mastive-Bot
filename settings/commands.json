@@ -1,0 +1,289 @@
+{
+    "8ball": {
+        "name": "8ball",
+        "description": "Senda an answer to a question.",
+        "usage": "/8ball [text]",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "circle":{
+        "name": "circle",
+        "description": "",
+        "usage": "",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "dog": {
+        "name": "dog",
+        "description": "Senda a img of a dog.",
+        "usage": "/dog",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "cat": {
+        "name": "cat",
+        "description": "Senda aimg of a cat.",
+        "usage": "/cat",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "trigger": {
+        "name": "trigger",
+        "description": "Triggers a tagged user.",
+        "usage": "/trigger [@user]",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "joke": {
+        "name": "joke",
+        "description": "Generates a joke.",
+        "usage": "/joke",
+        "aliases": "N/A",
+        "group": "Fun"
+    },
+    "announce": {
+        "name": "announce",
+        "description": "Sends an embed with the text provided to the channel mentioned. (Run `cmd-permissions`)",
+        "usage": "/announce [#channel] [text]",
+        "aliases": "announcement",
+        "group": "Moderation"
+    },
+    "ban": {
+        "name": "ban",
+        "description": "Bans a user from the guild. (Run `cmd-permissions`)",
+        "usage": "/ban [@user] [reason]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "kick": {
+        "name": "kick",
+        "description": "Kicks a user from the guild. (Run `cmd-permissions`)",
+        "usage": "/kick [@user] [reason]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "lockdown": {
+        "name": "lockdown",
+        "description": "Lockdowns a channel. (Run `cmd-permissions`)",
+        "usage": "/lockdown [h/m/s] unlock, release",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "mute": {
+        "name": "mute",
+        "description": "Mutes an user. (Run `cmd-permissions`)",
+        "usage": "/mute [@user] [reason]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "poll": {
+        "name": "poll",
+        "description": "Make a poll with a question with thumbs up and down reactions. (Run `cmd-permissions`)",
+        "usage": "/poll [text]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "prefix": {
+        "name": "prefix",
+        "description": "Changes the prefix of the guild. (Run `cmd-permissions`)",
+        "usage": "/prefix [newPrefix]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "purge": {
+        "name": "purge",
+        "description": "Delets a number of messages. (Upto 100) (Run `cmd-permissions`)",
+        "usage": "/purge [number]",
+        "aliases": ["prune", "delete"],
+        "group": "Moderation"
+    },
+    "role": {
+        "name": "role",
+        "description": "Roles a user. (Run `cmd-permissions`)",
+        "usage": "/role [add/remove] [roleName]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "unban": {
+        "name": "unban",
+        "description": "Un bans a user. (Run `cmd-permissions`)",
+        "usage": "/unban [userid] [reason]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "unmute": {
+        "name": "unmute",
+        "description": "Un mutes a user, if he is muted. (Run `cmd-permissions`)",
+        "usage": "/unmute [@user]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "warn": {
+        "name": "warn",
+        "description": "Warns a user. (Run `cmd-permissions`)",
+        "usage": "/warn [@user] [reason]",
+        "aliases": "N/A",
+        "group": "Moderation"
+    },
+    "warnlevel": {
+        "name": "warnlevel",
+        "description": "Shows how many Warnings a user has. (Run `cmd-permissions`)",
+        "usage": "/warnlevel [@user]",
+        "aliases": "warnings",
+        "group": "Moderation"
+    },
+    "ass": {
+        "name": "ass",
+        "description": "Shows a image of an ass. (NSFW ONLY)",
+        "usage": "/ass",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "hentai": {
+        "name": "hentai",
+        "description": "Shows some porn hentai. (NSFW ONLY)",
+        "usage": "/hentai",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "meme": {
+        "name": "name",
+        "description": "Sends a meme. (NSFW ONLY)",
+        "usage": "/meme",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "nudes": {
+        "name": "nudes",
+        "description": "Sends a image of nudes. (NSFW ONLY)",
+        "usage": "/nudes",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "porngif": {
+        "name": "porngif",
+        "description": "Shows a porn gif. (NSFW ONLY)",
+        "usage": "/porgif or /pgif",
+        "aliases": "pgif",
+        "group": "NSFW"
+    },
+    "pussy": {
+        "name": "pussy",
+        "description": "Send a image of a pussy. (NSFW ONLY)",
+        "usage": "/pussy",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "boobs": {
+        "name": "boobs",
+        "description": "Shows some boobs.",
+        "usage": "/boobs",
+        "aliases": "N/A",
+        "group": "NSFW"
+    },
+    "eval": {
+        "name": "e",
+        "description": "Restricted",
+        "usage": "/eval [arguments]",
+        "aliases": "eval",
+        "group": "Owner"
+    },
+    "restart": {
+        "name": "restart",
+        "description": "Restarts the bot. (Owner Only)",
+        "usage": "/restart",
+        "aliases": "N/A",
+        "group": "Owner"
+    },
+    "shutdown": {
+        "name": "shutdown",
+        "description": "Shutdowns the bot. (Owner Only)",
+        "usage": "/shutdown",
+        "aliases": "N/A",
+        "group": "Owner"
+    },
+    "avatar": {
+        "name": "avatar",
+        "description": "Shows in a embed the avatar of a tagged user.",
+        "usage": "/avatar [@user]",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "cmd-permissions": {
+        "name": "cmd-permissions",
+        "description": "Gives the information about the permissions of the Moderation Commands.",
+        "usage": "/cmdp",
+        "aliases": "cmdp",
+        "group": "Util"
+    },
+    "fuser": {
+        "name": "fuser",
+        "description": "Searchs a user witha provided term.",
+        "usage": "/fuser [term]",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "help": {
+        "name": "help",
+        "description": "Gives information about the commands.",
+        "usage": "/help ir /help [cmd]",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "mcstatus": {
+        "name": "mcstatus",
+        "description": "Gives the status about a Minecraft Server.",
+        "usage": "/mcstatus [serverIp]",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "report": {
+        "name": "report",
+        "description": "Sends to a report channel the report that a user sent..",
+        "usage": "/report [@user] [reason]",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "serverinfo": {
+        "name": "serverinfo",
+        "description": "Gives information about the server that you run the command.",
+        "usage": "/serverinfo",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "stats": {
+        "name": "stats",
+        "description": "Gives useful information about Me. (Includes bot invite)",
+        "usage": "/stats",
+        "aliases": "N/A",
+        "group": "Util"
+    },
+    "sysinfo": {
+        "name": "sysinfo",
+        "description": "Gives information about the system where im hosted.",
+        "usage": "/sysinfo",
+        "aliases": "systeminfo",
+        "group": "Util"
+    },
+    "tag": {
+        "name": "tag",
+        "description": "Soon",
+        "usage": "/tag soon",
+        "aliases": "tag",
+        "group": "Util"
+    },
+    "userinfo": {
+        "name": "userinfo",
+        "description": "Gives information about a tagged user.",
+        "usage": "/userinfo [@user] or /userinfo",
+        "aliases": ["whois", "user-info"],
+        "group": "Util"
+    },
+    "roleinfo": {
+        "name": "roleinfo",
+        "description": "Shows information about a named role (Not tagged).",
+        "usage": "/role [roleName]",
+        "aliases": "N/A",
+        "group": "Util"
+    }
+}
