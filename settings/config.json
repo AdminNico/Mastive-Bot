@@ -1,13 +1,9 @@
 {
     "prefix": "/",
-    "logs": "audit-log",
-    "rlogs": "reports",
-    "token": "NjEzNDk4NzA2MTMzNjQ3MzYy.XVx0hw.qdv9ehj4FARB3s4_HU3lSCMK_gQ",
-    "ownerid": "328354437552668672",
-    "guildid": "619723725301874718",
-    "roles": ["Mod", "Admin"],
-    "Aroles": "Admin",
-    "botAdmins": ["328354437552668672", "236303666011832321"],
+    "token": "YOUR_TOKEN_HERE",
+    "ownerid": "OWNER_ID",
+    "guildid": "MAIN_GUILD_ID",
+    "botAdmins": [""],
     "swearfilter": true,
     "discordinvite": true,
     "profilecommand": true,
@@ -25,7 +21,7 @@
     "black": "#0000",
     "purple": "#551a8b",
     "cyan": "#46CED5",
-    "descriptions": {
+    "descriptions": { 
       "ban": "This will permanently bans a user from the guild with the reason provided.",
       "botinfo": "Displays information about the bot.",
       "botinvite": "Users can use this as an easy utility to invite bots to their servers, or yours if you allow it.",
