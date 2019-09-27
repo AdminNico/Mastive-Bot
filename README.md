@@ -8,3 +8,8 @@
 
 
 (Aliases arent working, for that reason there are files with the command aliases)
+
+
+<a href="https://discordbots.org/bot/613498706133647362" >
+  <img src="https://discordbots.org/api/widget/613498706133647362.svg" alt="Mastive" />
+</a>
